@@ -89,6 +89,21 @@
   font-family: rubik-bold, sans-serif;
 }
 
+h2 {
+  font-family: rubik-medium, sans-serif;
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-family: rubik-medium, sans-serif;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-family: rubik-medium, sans-serif;
+  font-size: 1.5rem;
+}
+
 
 /**********************************
     CODES COULEURS
@@ -135,10 +150,6 @@
 a {
   text-decoration: none;
 }
-
-/* div {
-  border: solid 1px #000000 ;
-} */
 
 
 /**********************************
@@ -232,12 +243,6 @@ menu li{
   display: flex;
   align-items: center; 
 }
-
-/* #title-txt {
-  flex: 0 0 66%;
-  margin-left: 18vw;
-  max-width: ;
-} */
 
 #main-img {
   flex: 0 0 33%;
