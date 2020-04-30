@@ -1,6 +1,7 @@
 /**********************************
     FONTES
 **/
+
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
@@ -72,6 +73,12 @@
 .rubik-17 {
   font-family: rubik-regular, sans-serif;
   font-size: 1.063rem;
+  line-height: 2;
+}
+
+.rubik-18 {
+  font-family: rubik-regular, sans-serif;
+  font-size: 1.45rem;
 }
 
 .rubik-medium {
@@ -86,6 +93,7 @@
 /**********************************
     CODES COULEURS
 **/
+
 .gris {
   color: #6B6D73;
 }
@@ -97,7 +105,7 @@
 .orange {
   color: #FF8400;
 }
-
+ 
 .bleu {
   color: #0E3B84;
 }
@@ -105,6 +113,15 @@
 .degrade {                                /* incomplet ?! */
   background-image: linear-gradient(#1C4689 #103167);
 }
+
+.btn-1  {
+  background: #FF8400;
+  border-radius: 28px;
+  padding: 17px 40px;
+  margin: 10px 150px 0px 0px;
+  display: block;
+}
+
 
 /**********************************
     BASE
@@ -115,18 +132,26 @@
   background-color: #FFFFFF;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* div {
   border: solid 1px #000000 ;
 } */
 
+
 /**********************************
     CONTAINERS
 **/
+
 .containerCenter{
   margin: 0 18vw;
   max-width: 1230px;
   
-}.containerTop{
+}
+
+.containerTop{
   margin: 0 6.5vw 0 18vw;
   max-width: 1450px;
 }
@@ -135,6 +160,7 @@
 /**********************************
     FLEX
 **/
+
 .flexSpaceBetween{
   display: flex;
   justify-content: space-between;
@@ -149,6 +175,8 @@
 .flexRow {
   display: flex;
 }
+
+
 /**********************************
     HEADER
 **/
@@ -202,8 +230,7 @@ menu li{
 
 #hdr-title {
   display: flex;
-  align-items: center;
-  
+  align-items: center; 
 }
 
 /* #title-txt {
