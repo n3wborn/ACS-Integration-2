@@ -1,7 +1,6 @@
 /**********************************
     FONTES
 **/
-
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
@@ -79,18 +78,8 @@
   font-family: rubik-medium, sans-serif;
 }
 
-.rubik-med-18 {
-  font-family: rubik-medium, sans-serif;
-  font-size: 1.125rem;
-  line-height: 1.35;
-}
-
 .rubik-bold {
   font-family: rubik-bold, sans-serif;
-}
-
-.justify-text {
-    text-align: justify;
 }
 
 
@@ -117,49 +106,35 @@
   background-image: linear-gradient(#1C4689 #103167);
 }
 
-
-/**********************************
-    BOUTONS
-**/
-
-.btn-orange {
-  background-color: #FF8400;
-  border-radius: 28px;
-  padding: 
-}
-
-
 /**********************************
     BASE
 **/
-
 * {
   margin: 0;
   padding: 0;
   background-color: #FFFFFF;
 }
 
-div {
+/* div {
   border: solid 1px #000000 ;
-}
+} */
 
-a {
-  text-decoration: none;
-}
 /**********************************
     CONTAINERS
 **/
-
 .containerCenter{
   margin: 0 18vw;
   max-width: 1230px;
+  
+}.containerTop{
+  margin: 0 6.5vw 0 18vw;
+  max-width: 1450px;
 }
 
 
 /**********************************
     FLEX
 **/
-
 .flexSpaceBetween{
   display: flex;
   justify-content: space-between;
@@ -174,8 +149,6 @@ a {
 .flexRow {
   display: flex;
 }
-
-
 /**********************************
     HEADER
 **/
@@ -192,6 +165,9 @@ header {
   margin-left: 28px;
 }
 
+.hdr-nav-items {
+  font-size: 16px;
+}
 
 menu li{
   list-style: none;
@@ -214,22 +190,31 @@ menu li{
 }
 
 #hdr-line {
-/*  width: 100%;*/
+  width: 100%;
   margin-top: 30px;
-  height: 1px;
-  
 }
 
 #title {
   font-family: rubik-bold;
   font-size: 3.75rem;
-  line-height: 1.05;
-  margin: 47px 0px;
+  line-height: 4rem;
 }
 
-/*#hdr-title {
-  margin: 0 6.5vw 0 18vw;
-  max-width: 1450px;
-}*/
+#hdr-title {
+  display: flex;
+  align-items: center;
+  
+}
 
+/* #title-txt {
+  flex: 0 0 66%;
+  margin-left: 18vw;
+  max-width: ;
+} */
+
+#main-img {
+  flex: 0 0 33%;
+/*  margin-right: 6.5vw;
+  max-height: 5756px;*/
+}
 
