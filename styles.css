@@ -69,13 +69,6 @@
   font-family: rubik-regular, sans-serif;
 }
 
-/* paragraphes  */
-.rubik {
-  font-family: rubik-regular, sans-serif;
-  font-size: 1.063rem;
-  line-height: 2;
-}
-
 .rubik-18 {
   font-family: rubik-regular, sans-serif;
   font-size: 1.45rem;
@@ -88,6 +81,8 @@
 .rubik-bold {
   font-family: rubik-bold, sans-serif;
 }
+
+/* Titres */
 
 h2 {
   font-family: rubik-medium, sans-serif;
@@ -104,6 +99,16 @@ h4 {
   font-size: 1.5rem;
 }
 
+/* paragraphes  */
+.rubik {
+  font-family: rubik-regular, sans-serif;
+  font-size: 1.063rem;
+  line-height: 2;
+}
+
+.txt-center {
+  text-align: center;
+}
 
 /**********************************
     CODES COULEURS
@@ -120,7 +125,7 @@ h4 {
 .orange {
   color: #FF8400;
 }
- 
+
 .bleu {
   color: #0E3B84;
 }
@@ -159,12 +164,17 @@ a {
 .containerCenter{
   margin: 0 18vw;
   max-width: 1230px;
-  
+
 }
 
 .containerTop{
   margin: 0 6.5vw 0 18vw;
   max-width: 1450px;
+}
+
+#values {
+  margin: 150px 15vw;
+  max-width: 1920px;
 }
 
 
@@ -241,7 +251,7 @@ menu li{
 
 #hdr-title {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
 
 #main-img {
