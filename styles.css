@@ -106,9 +106,11 @@ h4 {
   line-height: 2;
 }
 
+/* text centré */
 .txt-center {
   text-align: center;
 }
+
 
 /**********************************
     CODES COULEURS
@@ -172,12 +174,20 @@ a {
   max-width: 1450px;
 }
 
-#values {
+.values-section {
   margin: 150px 15vw;
   max-width: 1920px;
 }
 
+.values-content-container {
+  display: flex;
+  flex-direction: row;
 
+}
+
+.values-section {
+  max-height: 800px;
+}
 /**********************************
     FLEX
 **/
@@ -202,7 +212,7 @@ a {
     HEADER
 **/
 
-header {
+#page-header {
   height: 693px;
   margin-top: 45px;
 }
@@ -260,3 +270,22 @@ menu li{
   max-height: 5756px;*/
 }
 
+
+/* values */
+
+.values-hdr-txt  {
+  margin: 23px 7.5vw 90px 7.5vw;
+}
+
+
+/* J AI PAS PU GERER LES COULEURS A TEMPS */
+.icon-small {
+  border-radius: 180px;
+  border: 1px solid rgba(255, 132, 0, 1);
+}
+
+/* JE CHERCHAIS COMMENT FAIRE POUR CHANGER L"ICONE*/
+.icon-small:hover {
+  color: #FF8400
+  background-image: rgba(255, 255, 255, 0);
+}
